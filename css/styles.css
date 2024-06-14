@@ -52,7 +52,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--colorSlate);
 	background-color: var(--backgroundColorWhite);
-	/*max-width: 1440px;*/
 }
 
 .container { 
@@ -367,10 +366,6 @@ body {
 
 .social {
 	fill: var(--colorCloud);
-}
-
-.footer .social-links {
-	padding: 8px 0;
 }
 
 .portfolio .project-list {
