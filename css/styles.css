@@ -126,7 +126,9 @@ body {
 	left: 0;
 	bottom: -1px;
 	height: 4px;
+	width: 100%;
 	color: var(--pressedStateColor);
+	background-color: var(--pressedStateColor);
 	border-radius: 2px;
 }
 
