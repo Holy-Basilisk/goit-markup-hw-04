@@ -430,6 +430,15 @@ body {
 	margin-right: 120px;
 }
 
+.footer .social-links {
+	gap: 16px;
+}
+
+.footer .soc-link:hover,
+.footer .soc-link:focus {
+	background-color: var(--colorGreen);
+}
+
 .social-header {
 	font-size: 16px;
 	line-height: 1.5;
