@@ -115,11 +115,15 @@ body {
 
 .nav-menu .list .link {
 	position: relative;
-	color: var(--pressedStateColor);
+	color: var(--headersColor);
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-menu .list .link::after {
+.nav-menu .list .selected {
+	color: var(--pressedStateColor);
+}
+
+.nav-menu .list .selected::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -220,6 +224,7 @@ body {
 	font-size: 56px;
 	line-height: 1.07;
 	max-width: 496px;
+	padding-bottom: 48px;
 }
 .hero-image .button {
 	color: var(--heroTextColor);
@@ -270,6 +275,7 @@ body {
 	letter-spacing: 0.02em;
 	margin-bottom: 8px;
 }
+
 .features p,
 .our-team p,
 .project-list p,
@@ -336,6 +342,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--textColor);
 	text-align: center;
+	margin-bottom: 8px;
 }
 
 .social-links {
